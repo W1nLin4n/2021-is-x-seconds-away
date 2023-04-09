@@ -1,0 +1,1 @@
+document.getElementById("fuckTime").innerHTML = "This fucking year will fucking end in " + (Math.floor(new Date(new Date().getFullYear() + 1, 0, 1, 0, 0, 0, 0).getTime() / 1000 - new Date().getTime() / 1000)) + " seconds";
